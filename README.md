@@ -4,7 +4,7 @@ DynamicMOTD is a **bungeecord** only plugin (for now) that allow to change the s
 
 🎯 Goal:
 - Allow to customize entire MOTD. ❌ (In a near future)
-- Port the plugin into Spigot. ❌
+- Port the plugin into Spigot. ✅
 - Support for older version. ❌
 
 

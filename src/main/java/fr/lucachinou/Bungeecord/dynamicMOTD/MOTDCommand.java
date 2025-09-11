@@ -1,9 +1,9 @@
-package fr.lucachinou.dynamicMOTD;
+package fr.lucachinou.Bungeecord.dynamicMOTD;
 
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.plugin.Command;
 
-import static fr.lucachinou.dynamicMOTD.DynamicMOTD.*;
+import static fr.lucachinou.Bungeecord.dynamicMOTD.DynamicMOTD.*;
 
 public class MOTDCommand extends Command {
 

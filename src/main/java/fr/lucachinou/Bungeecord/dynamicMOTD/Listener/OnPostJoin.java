@@ -1,11 +1,11 @@
-package fr.lucachinou.dynamicMOTD.Listener;
+package fr.lucachinou.Bungeecord.dynamicMOTD.Listener;
 
-import fr.lucachinou.dynamicMOTD.DynamicMOTD;
+import fr.lucachinou.Bungeecord.dynamicMOTD.DynamicMOTD;
 import net.md_5.bungee.api.event.PostLoginEvent;
 import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.event.EventHandler;
 
-import static fr.lucachinou.dynamicMOTD.DynamicMOTD.*;
+import static fr.lucachinou.Bungeecord.dynamicMOTD.DynamicMOTD.*;
 
 public class OnPostJoin implements Listener {
 

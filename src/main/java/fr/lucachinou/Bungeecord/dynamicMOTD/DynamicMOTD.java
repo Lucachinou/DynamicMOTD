@@ -1,21 +1,13 @@
-package fr.lucachinou.dynamicMOTD;
+package fr.lucachinou.Bungeecord.dynamicMOTD;
 
-import fr.lucachinou.dynamicMOTD.Listener.OnPostJoin;
-import fr.lucachinou.dynamicMOTD.Listener.OnProxyPing;
-import net.md_5.bungee.api.ChatColor;
-import net.md_5.bungee.api.CommandSender;
+import fr.lucachinou.Bungeecord.dynamicMOTD.Listener.OnPostJoin;
+import fr.lucachinou.Bungeecord.dynamicMOTD.Listener.OnProxyPing;
 import net.md_5.bungee.api.ProxyServer;
-import net.md_5.bungee.api.ServerPing;
-import net.md_5.bungee.api.chat.TextComponent;
-import net.md_5.bungee.api.event.PostLoginEvent;
-import net.md_5.bungee.api.event.ProxyPingEvent;
-import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.api.plugin.Listener;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;
-import net.md_5.bungee.event.EventHandler;
 
 import java.io.File;
 import java.io.IOException;

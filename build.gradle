@@ -8,10 +8,13 @@ repositories {
     maven {
         url "https://libraries.minecraft.net"
     }
+    maven { url = uri("https://hub.spigotmc.org/nexus/content/repositories/snapshots/") }
+    maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots/") }
 }
 
 dependencies {
     compileOnly("net.md-5:bungeecord-api:1.21-R0.3")
+    compileOnly("org.spigotmc:spigot-api:1.21.8-R0.1-SNAPSHOT")
 }
 
 
@@ -38,7 +41,7 @@ processResources {
     inputs.properties props
     expand props
     filteringCharset 'UTF-8'
-    filesMatching('bungee.yml') {
+    filesMatching(['bungee.yml', 'plugin.yml']) {
         expand props
     }
 }

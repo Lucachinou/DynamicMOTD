@@ -1,0 +1,7 @@
+{
+  "id": "dynamicmotd",
+  "name": "DynamicMOTD",
+  "version": "0.0.1",
+  "authors": ["lucachinou"],
+  "main": "fr.lucachinou.velocity.dynamicMOTD.DynamicMOTD"
+}

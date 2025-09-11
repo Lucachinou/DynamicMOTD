@@ -1,5 +1,11 @@
+# Important!!
+# Set a custom color with & instead of §
+# Don't touch "Config" category in this file!
+
 Message:
   non-perm-kick: "&7This server is currently in maintenance! &7Consider joining the Discord server for more informations: &e&lhttps://discord.gg/G8q8cGyX42"
   server-ping-maintenance: "&cUnder maintenance!"
 MesageOfTheDayConfig:
   servername: "Another DynamicMOTD server!"
+Config:
+  version: 0.1

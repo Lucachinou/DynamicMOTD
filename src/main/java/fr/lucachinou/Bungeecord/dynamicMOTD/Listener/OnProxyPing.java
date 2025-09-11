@@ -1,6 +1,6 @@
-package fr.lucachinou.dynamicMOTD.Listener;
+package fr.lucachinou.Bungeecord.dynamicMOTD.Listener;
 
-import fr.lucachinou.dynamicMOTD.DynamicMOTD;
+import fr.lucachinou.Bungeecord.dynamicMOTD.DynamicMOTD;
 import net.md_5.bungee.api.ServerPing;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.event.ProxyPingEvent;

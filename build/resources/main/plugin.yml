@@ -1,0 +1,12 @@
+name: DynamicMOTD
+main: fr.lucachinou.spigot.dynamicMOTD.DynamicMOTD
+author: lucachinou
+version: 0.1
+api-version: 1.21
+commands:
+  maintenance:
+    description: Enable or disable the maintenance mode on your server.
+    permission: dynamicmotd.maintenance.toggle
+  description:
+    description: Change your server motd dynamically!
+    permission: dynamicmotd.description.change
