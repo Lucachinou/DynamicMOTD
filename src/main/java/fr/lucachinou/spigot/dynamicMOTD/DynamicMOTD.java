@@ -25,18 +25,19 @@ public class DynamicMOTD extends JavaPlugin {
 
     public static FileConfiguration config;
 
-    public static String getCurrentMotd() {
-        return "         §2"+ fr.lucachinou.spigot.dynamicMOTD.DynamicMOTD.config.getString("MesageOfTheDayConfig.servername").replace("&", "§") +" §7| "+News+" "+AvailableVersion+"\n"+"         "+MajorUpdate;
-    }
-
     @Override
     public void onEnable() {
         Logger logger = getServer().getLogger();
+        loadConfig();
         this.getCommand("maintenance").setExecutor(new MaintenanceCommandSpigot());
         this.getCommand("description").setExecutor(new descriptionCommandSpigot());
         getServer().getPluginManager().registerEvents(new onPostJoinSpigot(), this);
         getServer().getPluginManager().registerEvents(new onServerPing(), this);
         logger.info("Plugin successfully loaded!");
+    }
+
+    public static String getCurrentMotd() {
+        return "         §2"+ fr.lucachinou.spigot.dynamicMOTD.DynamicMOTD.config.getString("MesageOfTheDayConfig.servername").replace("&", "§") +" §7| "+News+" "+AvailableVersion+"\n"+"         "+MajorUpdate;
     }
 
     public void loadConfig() {
